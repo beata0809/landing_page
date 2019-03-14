@@ -1,0 +1,409 @@
+@media only screen and (max-width:1400px) {
+
+    .navigation a {
+        padding: 1em 0.5em;
+        font-size: 1em;
+    }
+
+    #contact {
+        margin: 0em 15em;
+    }
+
+    .personal-info {
+        padding: 1em 1em;
+    }
+
+    .lorem-ipsum {
+        padding: 2em 4em;
+        font-size: 1.2em;
+    }
+
+    .skills {
+        padding: 2em 5em;
+    }
+
+    .hard-ones {
+        padding: 2em 5em;
+    }
+
+    .soft-ones {
+        padding: 2em 5em;
+    }
+
+    .progressbar {
+        width: 100%;
+    }
+
+    .progressbar>div {
+        width: 80%;
+    }
+
+    .portfolio {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 2em 3em;
+        grid-gap: 5em;
+    }
+
+    .text {
+        max-height: 5em;
+        font-size: 0.8em;
+        word-spacing: 0.2em;
+    }
+
+    #lorem1 {
+        line-height: 1.5em;
+    }
+
+    #lorem2 {
+        top: 12em;
+        line-height: 1.5em;
+    }
+
+}
+
+@media only screen and (max-width:780px) {
+
+    .welcome {
+        line-height: 1.5em;
+        font-size: 1.5em;
+    }
+
+    #contact {
+        margin: 0em 8em;
+    }
+
+    .personal-info {
+        line-height: 1.5em;
+        font-size: 0.9em;
+        padding: 2em 2em;
+    }
+
+    .lorem-ipsum {
+        line-height: 1em;
+        font-size: 1.1em;
+        padding: 2em 2em;
+    }
+
+    .skills {
+        padding: 2em 3em;
+    }
+
+    .hard-ones {
+        padding: 2em 3em;
+    }
+
+    .soft-ones {
+        padding: 2em 3em;
+    }
+
+    .portfolio {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 2em 3em;
+        grid-gap: 3em;
+    }
+
+    #lorem1 {
+        line-height: 1.5em;
+        font-size: 0.8em;
+    }
+
+    #lorem2 {
+        top: 14em;
+        font-size: 0.8em;
+        line-height: 1.5em;
+    }
+
+    #adres {
+        font-size: 0.8em;
+        top: 35em;
+    }
+
+    .contact-links a {
+        display: block;
+        padding: 0.5em;
+    }
+
+}
+@media only screen and (max-width:590px) {
+    header {
+        height: 60vh;
+        grid-template-columns: 2.5fr 0.5fr;
+    }
+
+    .welcome {
+        font-size: 1.3em;
+        padding-left: 0.5em;
+    }
+
+    .bg-color-left {
+        height: 60vh;
+    }
+
+    .navigation {
+        display: block;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 0em 2em;
+    }
+
+    .navigation a {
+        display: block;
+        padding: 0.5em 1em;
+    }
+
+    .bg-color-right p {
+        top: 52vh;
+        right: 2em;
+    }
+
+    .useful-links {
+        top: 55vh;
+    }
+
+    .useful-links a {
+        padding: 0.5em;
+    }
+
+    .info p {
+        font-size: 1em;
+        text-align: center;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .info>div {
+        height: 2em;
+        font-size: 1em;
+        width: 7em;
+        border-radius: 5em;
+    }
+
+    #contact {
+        margin: 0em 3em 0em 3em;
+    }
+
+    .about-me-box {
+        grid-template-columns: 0.8fr 1.2fr;
+    }
+
+    .lorem-ipsum {
+        font-size: 0.9em;
+    }
+
+    .personal-info {
+        line-height: 1.7em;
+        font-size: 0.8em;
+        padding: 2em 1em;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2em 3em;
+        height: 40em;
+        align-content: center;
+    }
+
+    .progressbar {
+        width: 80%;
+    }
+
+    .progressbar>div {
+        width: 80%;
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2em 3em;
+        align-content: center;
+    }
+
+    .photo {
+        margin: 1em 0em;
+    }
+
+    #lorem1 {
+        line-height: 1em;
+        font-size: 0.8em;
+    }
+
+    #lorem2 {
+        top: 17em;
+        font-size: 0.8em;
+        line-height: 1em;
+    }
+
+    #adres {
+        top: 42em;
+        font-size: 0.7em;
+        left: 0.05em;
+    }
+
+    #r-p-title {
+        padding: 1em;
+    }
+
+    textarea {
+        width: 80%;
+        height: 20%;
+        margin-left: 2em;
+    }
+
+    #msg {
+        margin-left: 2em;
+        margin-top: 2em;
+    }
+
+    .x-input {
+        margin-left: 1em;
+    }
+
+    .contact-links a {
+        padding: 0.1em;
+    }
+
+    .right-part {
+        padding-left: 0em;
+    }
+}
+@media only screen and (max-width:320px) {
+
+    header {
+        height: 60vh;
+        grid-template-columns: 2.5fr 0.5fr;
+    }
+
+    .welcome {
+        font-size: 1.3em;
+        padding-left: 0.5em;
+    }
+
+    .bg-color-left {
+        height: 60vh;
+    }
+
+    .navigation {
+        display: block;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 0em 0.5em;
+    }
+
+    .navigation a {
+        padding: 0.5em 1em;
+        font-size: 0.8em;
+    }
+
+    .bg-color-right p {
+        top: 52vh;
+        right: 1em;
+        font-size: 0.8em;
+    }
+
+    .useful-links {
+        top: 55vh;
+    }
+
+    .useful-links a {
+        padding: 0.2em;
+        font-size: 0.8em;
+    }
+
+    #contact {
+        margin: 0em 2em;
+    }
+
+    .about-me-box {
+        display: block;
+    }
+
+    .lorem-ipsum {
+        font-size: 0.8em;
+        padding: 1em 4em;
+    }
+
+    .skills-title {
+        padding-top: 1em;
+    }
+
+    .personal-info {
+        line-height: 1.2em;
+        font-size: 0.8em;
+        padding: 1.5em 4em;
+        border-right-style: none;
+        border-bottom-style: solid;
+        border-bottom-color: #2C88CB;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2em 2em;
+        height: 40em;
+        align-content: center;
+    }
+
+    .progressbar {
+        width: 90%;
+    }
+
+    .progressbar>div {
+        width: 80%;
+    }
+
+    #lorem1 {
+        top: 2em;
+        left: 0.5em;
+        right: 1em;
+        line-height: 1em;
+    }
+
+    #lorem2 {
+        top: 15em;
+        left: 0.5em;
+        right: 1em;
+        line-height: 1em;
+    }
+
+    #adres {
+        top: 60em;
+        left: 0.5em;
+        font-size: 0.5em;
+    }
+
+    #r-p-title {
+        padding: 1em;
+        font-size: 1.5em;
+    }
+
+    textarea {
+        width: 80%;
+        height: 30%;
+        margin-left: 1em;
+    }
+
+    .x-input {
+        padding: 0.5em 1em;
+        margin-left: 1em;
+        font-size: 1em;
+    }
+
+    #msg {
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .contact-links a {
+        padding: 0.05em;
+    }
+
+    .right-part {
+        padding-left: 0em;
+    }
+}
